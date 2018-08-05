@@ -1,7 +1,7 @@
 Project Title
 ----------------
 
-Timer plugin
+Common Validation
 
 
 Getting Started
@@ -16,8 +16,6 @@ These instructions will get you a copy of the project up and running on your loc
 Run the application
 --------------------------
 
-var counter;
-counter = new timerCounter();
-counter.init("timer", 180); // expects in seconds
+Please go through the testFile.js
 
 
