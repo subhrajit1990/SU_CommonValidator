@@ -4,6 +4,7 @@ if (typeof (apz) == "undefined") {
     apz.app.CommonValidator ={};
 }
 
+/* SAMPLE FUNCTIONS >> STARTS */
 
 /* text */
 function text(s) {
@@ -43,6 +44,7 @@ function email(s) {
 }
 
 
+/* SAMPLE FUNCTIONS >> ENDS */
 
 apz.app.CommonValidator.valid = function(element, check) {
     if (element.type == 'text' || element.type == 'textarea' || element.type == 'email') {
