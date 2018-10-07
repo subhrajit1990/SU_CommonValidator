@@ -80,7 +80,7 @@ apz.app.CommonValidator.validateFields = function(form, list, flag) {
                     out = apz.app.CommonValidator.valid(element, list[n].verify);
                     if (err) {
                         list[n].err = err;                       
-                        console.log("ERROR"+list[n].message || appzillon.data.messages["ERR-" + err].Message);
+                        console.log("ERROR"+list[n].message || "Error occured");
                         errorCount++;
                     }
                 }
