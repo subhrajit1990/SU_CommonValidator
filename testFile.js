@@ -5,7 +5,9 @@ if (typeof (SUBU) == "undefined") {
 
 SUBU.test_ValidationOps = new function(){	
     this.init = function(){
-    var form = $(".inputType");
+
+$('button').click(function(){
+ var form = $(".inputType");
         form_validator_check = {
             lastname: {
                 verify: nullcheck,
@@ -22,6 +24,10 @@ SUBU.test_ValidationOps = new function(){
         }else{
             console.log("Error");
         }
+
+
+})
+   
     }
 
 }
